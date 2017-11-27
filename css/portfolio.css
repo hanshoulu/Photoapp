@@ -255,7 +255,7 @@ section>div:hover{
 	width:100%;	
 	background: #ccc;
 	position: absolute;
-	top:150%;
+	top:130%;
 	display: block;
 	
 }
@@ -263,21 +263,21 @@ section>div:hover{
 	width:100%;	
 	background: #ccc;
 	position: absolute;
-	top:150%;
+	top:130%;
 	display: none;	
 }
 .nature{
 	width:100%;	
 	background: #ccc;
 	position: absolute;
-	top:150%;
+	top:130%;
 	display: none;
 }
 .models{
 	width:100%;	
 	background: #ccc;
 	position: absolute;
-	top:150%;
+	top:130%;
 	display: none;
 }
 img{

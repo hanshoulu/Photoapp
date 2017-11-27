@@ -1,0 +1,269 @@
+@charset"utf-8";
+/*Css Docunment*/
+/*初始代码*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0} 
+body{font:12px"微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;} 
+a{color:#2d374b;text-decoration:none} 
+a:hover{color:#cd0200;text-decoration:underline} 
+em{font-style:normal} 
+li{list-style:none} 
+img{border:0;vertical-align:middle} 
+table{border-collapse:collapse;border-spacing:0} 
+p{word-wrap:break-word}
+@font-face {font-family: "iconfont";src: url(../iconfont.ttf)}
+.icon-fenxiang:before { content: "\e61c"; }
+
+.icon-gongju:before { content: "\e680"; }
+
+.icon-home:before { content: "\e671"; }
+
+.icon-gongwenbao:before { content: "\e606"; }
+
+.icon-ren:before { content: "\e72d"; }
+
+.icon-ding:before { content: "\e608"; }
+body{
+	width: 100vw;
+	height: 100vh;
+}
+.content{
+    width: 100%;
+    height: 100%;
+}
+/*菜单部分*/
+.menu{
+	width: 24.8vw;
+	height: 4.5vh;
+	background: #fff;
+	border-radius: 10vw;
+	border: none;
+	outline: none;
+	font-size: 3.73vw;
+	font-weight: bold;
+	position: fixed;
+	box-shadow: 0px 0px 4px 1px #999;
+	left: 2.67vw;
+	top: 2.1vh;
+	z-index: 5;
+}
+.menucon{
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	z-index: 4;
+	display: none;
+}
+.menuhead{
+	width: 100vw;
+	height: 37.48vh;
+}
+.menuhead>span{
+	width: 20vw;
+	height: 20vh;
+	font-weight: lighter;
+	font-size: 15vw;
+	line-height: 20vw;
+	text-align: center;
+	color: #fff;
+	float: right;
+	display: block;
+}
+.menus{
+	width: 100vw;
+	height: 33vh;
+}
+.line1{
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+	height: 15vh;
+}
+.line1>div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.line1>div>p{
+	color: #fff;
+	margin-top:3vh;
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:10vw;
+  font-style:normal;
+  color: #fff;
+}
+.line2{
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+	height: 15vh;
+	margin-top: 3vh;
+}
+.line2>div>p{
+	color: #fff;
+	margin-top:3vh;
+}
+.line2>div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/*更多部分*/
+.readmore{
+	width: 94.4%;
+	height: 89%;
+	background: #fff;
+	border-radius: 1.5%;
+	position:fixed;
+	left:2.8%;
+	top: 1.4%;
+	z-index: 3;
+	display: none;
+}
+.return{
+	width: 100%;
+	height: 4.35vh;
+}
+.return>span{
+	width: 6.6vh;
+	height: 4.35vh;
+	font-weight: bolder;
+	font-size: 5vw;
+	line-height: 11vw;
+	text-align: center;
+	color: #ccc;
+	float: right;
+	display: block;
+}
+.readmore>p{
+	width: 100%;
+	height: 9vh;
+	text-align: center;
+	line-height: 9vh;
+	border-bottom: 1px solid #ccc;
+	font-size: 5.33vw;
+	font-family: '宋体';
+	
+}
+.reabout{
+	display: block;
+	width: 86.13vw;
+	margin: 2.4vh auto;
+	
+	/*height: 36.32vw;*/
+}
+.rmtext{
+	width: 86.13vw;
+	font-size: 3.4vw;
+	text-indent: 6.4vw;
+	line-height: 6vw;
+	margin: 4.95vh auto;
+}
+.head{
+    width: 100%;
+    height: 29.75vh;
+    /*border: 1px solid red;*/
+    display: flex;
+    position: relative;
+}
+.head>li{
+    width: 100%;
+    /*border: 1px solid yellow;*/
+    position: absolute;
+    display: none;
+}
+/*贴士部分呢*/
+.tt{
+	width: 100%;
+    height: 10vh;
+	z-index: 2;
+	overflow: hidden;
+	bottom: 0px;
+    position: absolute;	
+}
+.tips{
+	width: 100%;
+    height: 70vh;
+	position: relative;
+	transition: all 2s ease ;
+}
+.tips>p:nth-child(2n+1){
+	width: 100%;
+	height: 10vh;
+	bottom: 0px;
+	text-align: center;
+	font-size: 5vw;
+	line-height:10vh;
+	color: #fff;
+	background: rgba(0,0,0,0.7);
+}
+.tips>p:nth-child(2n){
+	width: 100%;
+	height: 10vh;
+	bottom: 0px;
+}
+.jd{
+	position: absolute;
+	height: 3px;
+	background: #ccc;
+	z-index: 2;
+	bottom: 1px;
+}
+.head>li>img{
+    width: 100%;
+    height: 29.75vh;;
+}
+.texta{
+    width: 100%;
+    height: 89.25vh;
+    background: #333;
+	overflow: hidden;
+}
+.bt{
+    font-size:5.33vw;
+    color: #fff;
+	margin-top: 6.67%;
+	margin-left: 3.73%;
+}
+.text{
+	width: 92.5%;
+	height: 29.7%;
+	margin: 4.2% auto;
+	color: #ccc;
+	font-size: 3.4vw;
+	text-indent: 6.4vw;
+	line-height: 6vw;
+}
+.rm{
+	width: 34vw;
+	height: 5.4%;
+	background: #777;
+	border-radius: 10vw;
+	border: none;
+	outline: none;
+	font-size: 3.73vw;
+	font-weight: bold;
+	color: #fafafa;
+	margin-left: 3.73%;
+	margin-top: 3%;
+}
+.imgsabout{
+	width: 100%;
+	height: 40%;
+	margin-top: 5%;
+	position: relative;
+}
+.about1{
+	max-width: 63vw;
+	position: absolute;
+	left: 7vw;
+	bottom: 0;
+}
+.about2{
+	max-width: 36.8vw;
+	position: absolute;
+	left: 58vw;
+	top: 13%;
+}

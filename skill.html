@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<title>skill</title>
+<link rel="stylesheet" href="css/skill.css">
+</head>
+<body>
+<div class="banner">
+<!--菜单按钮部分-->
+            <button class="menu" id="menu">MENU</button>
+            <div class="menucon" id="menucon">
+                <div class="menuhead"><span id="bre">×</span></div>
+                <div class="menus" id="menus">
+                    <div class="line1">
+                        <div>
+                            <a href="index.html">
+                            <i class="icon iconfont icon-home"></i>
+                            </a>
+                            <p>HOME</p>
+                        </div>
+                        <div>
+                            <a href="imgstext.html">
+                            <i class="icon iconfont icon-ding"></i>
+                            </a>
+                            <P>ABOUT</P>
+                        </div>
+                        <div>
+                            <a href="work.html">
+                            <i class="icon iconfont icon-ren"></i> 
+                            </a> 
+                            <P>WORK</P>
+                        </div>
+                    </div>
+                    <div class="line2">
+                        <div>
+                            <a href="skill.html">
+                            <i class="icon iconfont icon-gongwenbao"></i>
+                            </a>
+                            <p>SKILLS</p>
+                        </div>
+                        <div>
+                            <a href="folio.html">
+                            <i class="icon iconfont icon-gongju"></i>
+                            </a>
+                            <P>PORTFOLIO</P>
+                        </div>
+                        <div>
+                            <a href="contact.html">
+                            <i class="icon iconfont icon-fenxiang"></i>  
+                            </a>
+                            <P>CONTACT</P>
+                        </div>
+                    </div>
+                </div>
+            </div>	
+   <div class="div1">Skills</div>
+   <div class="div2">
+     <span>Photography</span>
+   	<div id="go1">
+   		<div id="to1">90%</div>
+   	</div>
+   	
+    </br>
+    
+   	<span>Editing</span>
+   	<div id="go2">
+   		<div id="to2">80%</div>
+   	</div>   	
+ 	</br>
+  	
+   	<span>Direction</span>
+   	<div id="go3">
+   		<div id="to3">85%</div>
+   	</div>
+   	</br>
+   	
+   	<span>Quality</span>
+   	<div id="go4">
+   		<div id="to4">95%</div>
+   	</div>
+   	<script>
+		var oGo1=document.getElementById('go1')
+		var oTo1=document.getElementById('to1')
+		var oGo2=document.getElementById('go2')
+		var oTo2=document.getElementById('to2')
+		var oGo3=document.getElementById('go3')
+		var oTo3=document.getElementById('to3')
+		var oGo4=document.getElementById('go4')
+		var oTo4=document.getElementById('to4')
+		var n=0 ;
+		var j=0;
+		var p=0;
+		var q=0;
+
+//进度条部分
+		function fun1(){
+			if(1.1423*n<80){
+				 n++;
+				 oTo1.style.width=1.1423*n+'vw';
+			}else{
+				 oTo1.style.width=80+'vw';
+			}
+			if(j<70){
+				 j++;
+				 oTo2.style.width=j+'vw';
+			}else{
+				 oTo2.style.width=70+'vw';
+			}
+			if(1.07*p<75){
+				 p++;
+				 oTo3.style.width=1.07*p+'vw';
+			}else{
+				 oTo3.style.width=75+'vw';
+			}
+			if(1.21*q<85){
+				 q++;
+				 oTo4.style.width=1.21*q+'vw';
+			}else{
+				 oTo4.style.width=85+'vw';
+			}
+			
+		}
+		setInterval(fun1,50)
+	</script>   	
+   	</div>
+   
+   <div class="div1">Stats</div>
+   
+   <div class="div3">
+   	 <div>
+   	 <img src="imgs/ljc2.png">
+   	 <p id="p1">0</p>
+   	 <span>Happy Clients</span>
+   	 </div>
+   	 <div>
+   	 <img src="imgs/ljc3.png">
+   	 <p id="p2">0</p>
+   	 <span>Projects</span>
+   	 </div>
+   	 <div>
+   	 <img src="imgs/ljc4.png">
+   	 <p id="p3">0</p>
+   	 <span>Followers</span>
+   	 </div>
+   	 <div>
+   	 <img src="imgs/ljc5.png">
+   	 <p id="p4">0</p>
+   	 <span>Awards</span>
+   	 </div>
+	</div>
+   	 <script>
+	 	  var oP1=document.getElementById('p1');
+		  var oP2=document.getElementById('p2');
+		  var oP3=document.getElementById('p3');
+		  var oP4=document.getElementById('p4')
+		  var oM=document.getElementById('menu');
+          var oMcon=document.getElementById('menucon');
+		  var oBre=document.getElementById('bre');
+		  var i=0;w=0;e=0;r=0;
+		  function fun2(){
+			if(i<=1700){
+				 i++;
+				 oP1.innerHTML=i ;
+			}else{
+				 oP1.innerHTML=1700 ;
+			}
+			if(w<=1900){
+				 w++;
+				 oP2.innerHTML=w ;
+			}else{
+				 oP2.innerHTML=1900 ;
+			}
+			if(e<=1860){
+				 e++;
+				 oP3.innerHTML=e ;
+			}else{
+				 oP3.innerHTML=1860 ;
+			}
+			if(r<=1669){
+				 r++;
+				 oP4.innerHTML=r ;
+			}else{
+				 oP4.innerHTML=1669 ;
+			}
+			//   for(var j=0;j<=170;j++){
+			// 	  oP[1].innerHTML=j
+			//   }
+			//   for(var m=0;m<=19000;m++){
+			// 	  oP[2].innerHTML=m
+			//   }
+			//   for(var n=0;n<=169;n++){
+			// 	  oP[3].innerHTML=n
+			//   }
+		  }
+		  setInterval(fun2,1)
+		   //菜单按钮部分
+         function sh(){
+             oMcon.style.display='block';
+             oM.style.color='lightblue';
+         }
+         oM.onclick=sh;
+         //返回部分
+          oBre.onclick=function(){
+             oMcon.style.display='none'; 
+             oM.style.color='#111'
+          }
+	 </script>
+</div>
+</body>
+</html>

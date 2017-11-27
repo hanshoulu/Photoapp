@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<title>tel</title>
+<link rel="stylesheet" href="css/Tel.css">
+</head>
+
+<body>
+<div class="div0"><img src="imgs/footer.jpg"></div>
+<div class="div2">Drop Me a Line</div>
+<div class="div3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequateu fugiat nulla pariatur.</div>
+<div class="div4">Addres</div>
+<div class="div5">
+	<div><img src="imgs/position.png"><span> Parma Via Modena</span></div>
+	<div><img src="imgs/position.png"><span> 40019</span></div>
+	<div><img src="imgs/position.png"><span> Sant'Agata Bolognese</span></div>
+	<div><img src="imgs/position.png"><span> BO, Italy</span></div>
+</div>
+<div class="div6"></div>
+
+<div class="div4">Phone</div>
+<div class="div5">
+	<div><img src="imgs/phone.png"><span> +1 (734) 123-4567</span></div>
+	<div><img src="imgs/phone.png"><span> +1 (739) 648-7114</span></div>	
+</div>
+<div class="div4">Email</div>
+<div class="div5">
+	<div><img src="imgs/email.png"><span> info@example.com</span></div>
+	<div><img src="imgs/email.png"><span> info@photos.com</span></div>	
+</div>
+<div class="div4">Newsletter</div>
+<div class="div5">
+	<div class="bin">
+		<input type="text" placeholder="Email" id="inputfooter">
+		 <font class="tag">
+			 <div class="jtu">!</div>
+			 <h3 class="jjh">请填写此段文字!</h3>
+      	 </font>  
+	</div>
+	<div><button id="butfooter">SUBSCRIBE</button></div>		
+</div>
+<script>
+	var oFont=document.getElementsByTagName('font')[0];
+	var oBtf=document.getElementById('butfooter');
+	var oInpf=document.getElementById('inputfooter');
+	oBtf.onclick=function(){
+		var u=oInpf.value;
+		if(u==0){
+			oFont.style.display='block'
+		}else{
+			oFont.style.display='none'
+		}
+		
+	}
+</script>
+</body>
+</html>

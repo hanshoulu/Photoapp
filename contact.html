@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<title>book your project</title>
+<link rel="stylesheet" href="css/contact.css" href="css/Tel.css">
+
+</head>
+
+<body>
+ <!--菜单按钮部分-->
+            <button class="menu" id="menu">MENU</button>
+            <div class="menucon" id="menucon">
+                <div class="menuhead"><span id="bre">×</span></div>
+                <div class="menus" id="menus">
+                    <div class="line1">
+                        <div>
+                            <a href="index.html">
+                            <i class="icon iconfont icon-home"></i>
+                            </a>
+                            <p>HOME</p>
+                        </div>
+                        <div>
+                            <a href="imgstext.html">
+                            <i class="icon iconfont icon-ding"></i>
+                            </a>
+                            <P>ABOUT</P>
+                        </div>
+                        <div>
+                            <a href="work.html">
+                            <i class="icon iconfont icon-ren"></i> 
+                            </a> 
+                            <P>WORK</P>
+                        </div>
+                    </div>
+                    <div class="line2">
+                        <div>
+                            <a href="skill.html">
+                            <i class="icon iconfont icon-gongwenbao"></i>
+                            </a>
+                            <p>SKILLS</p>
+                        </div>
+                        <div>
+                            <a href="folio.html">
+                            <i class="icon iconfont icon-gongju"></i>
+                            </a>
+                            <P>PORTFOLIO</P>
+                        </div>
+                        <div>
+                            <a href="contact.html">
+                            <i class="icon iconfont icon-fenxiang"></i>  
+                            </a>
+                            <P>CONTACT</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  <div class="jstr">
+	<h2 class="jh">Book Your Project</h2>
+	<div class="ja">
+	    <input type="text" placeholder="NAME" class="jin" > 
+	    <font class="tag">
+         <div class="jtu">!</div>
+         <h3 class="jjh">请填写此段文字</h3>
+      </font>  
+    </div>
+      <div class="ja">
+	    <input type="email" placeholder="EMAIL" class="jin" >
+	    <font class="tag">
+         <div class="jtu">!</div>
+         <h3 class="jjh">请填写此段文字</h3>
+      </font>  
+     </div>
+	   
+	    <div class="ja">
+	    <input type="text" placeholder="PHONE NUMBER" class="jin" >
+	     <font class="tag">
+         <div class="jtu">!</div>
+         <h3 class="jjh">请填写此段文字</h3>
+      </font>  
+      </div>
+	   
+       <div class="ja">
+        <input type="text" placeholder="PLACE" class="jin" >
+         <font class="tag">
+         <div class="jtu">!</div>
+         <h3 class="jjh">请填写此段文字</h3>
+      </font>  
+        </div>
+       
+      <div class="ja">
+        <input type="text" placeholder="PROJECT DETAILS" class="jin">
+         <font class="tag">
+         <div class="jtu">!</div>
+         <h3 class="jjh">请填写此段文字</h3>
+      </font>  
+    </div>
+         
+	  <div class="put">
+	   <button class="input1" id="input1">SEND MESSAGE</button>
+	  </div>
+  </div>
+<!--tel部分-->
+<div class="div0"><img src="imgs/footer.jpg"></div>
+<div class="div2">Drop Me a Line</div>
+<div class="div3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequateu fugiat nulla pariatur.</div>
+<div class="div4">Addres</div>
+<div class="div5">
+	<div><img src="imgs/position.png"><span> Parma Via Modena</span></div>
+	<div><img src="imgs/position.png"><span> 40019</span></div>
+	<div><img src="imgs/position.png"><span> Sant'Agata Bolognese</span></div>
+	<div><img src="imgs/position.png"><span> BO, Italy</span></div>
+</div>
+<div class="div6"></div>
+
+<div class="div4">Phone</div>
+<div class="div5">
+	<div><img src="imgs/phone.png"><span> +1 (734) 123-4567</span></div>
+	<div><img src="imgs/phone.png"><span> +1 (739) 648-7114</span></div>	
+</div>
+<div class="div4">Email</div>
+<div class="div5">
+	<div><img src="imgs/email.png"><span> info@example.com</span></div>
+	<div><img src="imgs/email.png"><span> info@photos.com</span></div>	
+</div>
+<div class="div4">Newsletter</div>
+<div class="div5">
+	<div class="bin">
+		<input type="text" placeholder="Email" id="inputfooter">
+		 <font class="tag">
+			 <div class="jtu">!</div>
+			 <h3 class="jjh">请填写此段文字!</h3>
+      	 </font>  
+	</div>
+	<div><button id="butfooter">SUBSCRIBE</button></div>		
+</div>
+<script>
+	var oFont=document.getElementsByTagName('font')[0];
+	var oBtf=document.getElementById('butfooter');
+	var oInpf=document.getElementById('inputfooter');
+	oBtf.onclick=function(){
+		var u=oInpf.value;
+		if(u==0){
+			oFont.style.display='block'
+		}else{
+			oFont.style.display='none'
+		}
+		
+	}
+</script>
+<script>
+	  var oIn=document.getElementById('input1')
+	  var oFont=document.getElementsByTagName('font')
+    var oBre=document.getElementById('bre');
+    var oM=document.getElementById('menu');
+    var oMcon=document.getElementById('menucon');
+    var oInp=document.getElementsByTagName('input');
+	  oIn.onclick=function(){
+    for(var i=0;i<oInp.length;i++){
+       oFont[i].style.display="none";
+      }//先巡逻一遍给所有的提示隐藏
+		for(var i=0;i<oInp.length;i++){
+		if( oInp[i].value==0){
+       	oFont[i].style.display="block";
+	    	return false;
+		}//巡逻一遍第一次遇到的没有value值终止巡逻
+		}
+	}
+  //菜单按钮部分
+         function sh(){
+             oMcon.style.display='block';
+             oM.style.color='lightblue';
+         }
+         oM.onclick=sh;
+         //返回部分
+          oBre.onclick=function(){
+             oMcon.style.display='none'; 
+             oM.style.color='#111'
+          }
+</script>
+</body>
+</html>

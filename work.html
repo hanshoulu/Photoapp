@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>What I Capture</title>
+<link rel="stylesheet" href="css/j1.css">
+<link rel="stylesheet" href="css/work.css">
+</head>
+
+<body>
+	 <!--菜单按钮部分-->
+            <button class="menu" id="menu">MENU</button>
+            <div class="menucon" id="menucon">
+                <div class="menuhead"><span id="bre">×</span></div>
+                <div class="menus" id="menus">
+                    <div class="line1">
+                        <div>
+                            <a href="index.html">
+                            <i class="icon iconfont icon-home"></i>
+                            </a>
+                            <p>HOME</p>
+                        </div>
+                        <div>
+                            <a href="imgstext.html">
+                            <i class="icon iconfont icon-ding"></i>
+                            </a>
+                            <P>ABOUT</P>
+                        </div>
+                        <div>
+                            <a href="work.html">
+                            <i class="icon iconfont icon-ren"></i> 
+                            </a> 
+                            <P>WORK</P>
+                        </div>
+                    </div>
+                    <div class="line2">
+                        <div>
+                            <a href="skill.html">
+                            <i class="icon iconfont icon-gongwenbao"></i>
+                            </a>
+                            <p>SKILLS</p>
+                        </div>
+                        <div>
+                            <a href="folio.html">
+                            <i class="icon iconfont icon-gongju"></i>
+                            </a>
+                            <P>PORTFOLIO</P>
+                        </div>
+                        <div>
+                            <a href="contact.html">
+                            <i class="icon iconfont icon-fenxiang"></i>  
+                            </a>
+                            <P>CONTACT</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+	<div class="jdiv" id="jdiv"><br>
+			<h2 class="h2">What I Capture</h2>
+			<div class="jgrid">
+				<div class="jsection">
+					   <div class="jkong">
+						   <div class="jimg1">
+							  <img src="imgs/j1.jpg" class="jimg2">
+							  <div class="jfigcaption">
+							  <p class="jh">FASHION</p>
+						      </div>
+					       </div>
+					    </div>
+						<div class="jkong">
+						   <div class="jimg1">
+							  <img src="imgs/j2.jpg" class="jimg2">
+							  <div class="jfigcaption"><hr>
+							  <p class="jh">FASHION</p>
+						      </div>
+					       </div>
+					    </div>
+				
+					
+						<div class="jkong">
+						   <div class="jimg1">
+							  <img src="imgs/j3.jpg" class="jimg2">
+							  <div class="jfigcaption">
+							  <p class="jh">WEDDING</p>
+						      </div>
+					       </div>
+					    </div>
+						<div class="jkong">
+						   <div class="jimg1">
+							  <img src="imgs/j4.jpg" class="jimg2">
+							  <div class="jfigcaption">
+							  <p class="jh">TILT SHIFT</p>
+						      </div>
+					       </div>
+					    </div>
+			
+					<div class="jkong">
+						   <div class="jimg1">
+							  <img src="imgs/j5.jpg" class="jimg2">
+							  <div class="jfigcaption">
+							  <p class="jh">MONOCHROME</p>
+						      </div>
+					       </div>
+					    </div>
+						<div class="jkong">
+						   <div class="jimg1">
+							  <img src="imgs/j6.jpg" class="jimg2">
+							  <div class="jfigcaption">
+							  <p class="jh">DOUBLE EXPOSURE</p>
+						      </div>
+					       </div>
+					    </div>
+				</div>
+				
+			</div>
+	
+	</div>
+	<script>
+	 	var oBre=document.getElementById('bre');
+        var oM=document.getElementById('menu');
+        var oMcon=document.getElementById('menucon');
+	 //菜单按钮部分
+         function sh(){
+             oMcon.style.display='block';
+             oM.style.color='lightblue';
+         }
+         oM.onclick=sh;
+         //返回部分
+          oBre.onclick=function(){
+             oMcon.style.display='none'; 
+             oM.style.color='#111'
+          }
+	</script>
+</body>
+</html>

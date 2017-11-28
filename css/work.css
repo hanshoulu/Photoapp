@@ -80,6 +80,9 @@ body{ margin:0 auto;max-width:100%; min-width:50%;color:#555; padding-bottom:8%;
 	margin-top:3vh;
 	font-size: 1.8vh;
 }
+.line1>div>a{
+	text-decoration: none;
+}
 .iconfont {
   font-family:"iconfont" !important;
   font-size:10vw;
@@ -97,6 +100,9 @@ body{ margin:0 auto;max-width:100%; min-width:50%;color:#555; padding-bottom:8%;
 	color: #fff;
 	margin-top:3vh;
 	font-size: 1.8vh;
+}
+.line2>div>a{
+	text-decoration: none;
 }
 .line2>div{
 	display: flex;

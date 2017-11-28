@@ -88,6 +88,9 @@ body{
 	color: #fff;
 	margin-top:3vh;
 }
+.line1>div>a{
+	text-decoration: none;
+}
 .iconfont {
   font-family:"iconfont" !important;
   font-size:10vw;
@@ -104,6 +107,9 @@ body{
 .line2>div>p{
 	color: #fff;
 	margin-top:3vh;
+}
+.line2>div>a{
+	text-decoration: none;
 }
 .line2>div{
 	display: flex;

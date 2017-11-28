@@ -82,6 +82,9 @@ p{word-wrap:break-word}
 	margin-top:3vh;
 	font-size: 1.8vh;
 }
+.line1>div>a{
+	text-decoration: none;
+}
 .iconfont {
   font-family:"iconfont" !important;
   font-size:10vw;
@@ -99,6 +102,9 @@ p{word-wrap:break-word}
 	color: #fff;
 	margin-top:3vh;
 	font-size: 1.8vh;
+}
+.line2>div>a{
+	text-decoration: none;
 }
 .line2>div{
 	display: flex;
